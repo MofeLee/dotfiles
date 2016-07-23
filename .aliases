@@ -1,19 +1,27 @@
 #!/usr/bin/env bash
 
-# Easier navigation: .., ..., ...., ....., ~ and -
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -="cd -"
+alias hp='export http_proxy=http://127.0.0.1:8123 https_proxy=http://127.0.0.1:8123'
+alias nhp='unset http_proxy https_proxy'
+
+# 完全代理zsh
+alias pz='proxychains4 -q zsh'
+#   代理单个进程
+alias x='~/bin/proxychains4 -q '
+alias gap='git add --patch'
+alias e="mvim"
+alias q="exit"
+alias rn='react-native'
+alias dm='docker-machine'
+alias dk='docker'
+alias dkt='/Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh'
+alias dktt='eval $(docker-machine env default)'
+alias cps='code-push'
+alias cpsd='code-push deployment'
+alias ad='aria2c -c -s10 -k1M -x10'
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
-alias g="git"
 alias h="history"
 alias j="jobs"
 

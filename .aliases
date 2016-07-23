@@ -6,7 +6,7 @@ alias nhp='unset http_proxy https_proxy'
 # 完全代理zsh
 alias pz='proxychains4 -q zsh'
 #   代理单个进程
-alias x='~/bin/proxychains4 -q '
+alias x='proxychains4 -q '
 alias gap='git add --patch'
 alias e="mvim"
 alias q="exit"

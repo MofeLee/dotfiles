@@ -81,5 +81,9 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 
+brew install the_silver_searcher
+brew install luajit
+brew install macvim --with-lua --with-luajit --with-override-system-vim
+
 # Remove outdated versions from the cellar.
 brew cleanup

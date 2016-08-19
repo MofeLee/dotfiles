@@ -18,3 +18,5 @@ source ~/.functions
 export NVM_DIR="/Users/mofe/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

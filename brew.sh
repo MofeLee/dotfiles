@@ -85,5 +85,10 @@ brew install the_silver_searcher
 brew install luajit
 brew install macvim --with-lua --with-luajit --with-override-system-vim
 
+brew install fzf
+# setup fzf
+/usr/local/opt/fzf/install
+
+
 # Remove outdated versions from the cellar.
 brew cleanup

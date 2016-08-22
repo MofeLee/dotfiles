@@ -89,6 +89,7 @@ brew install fzf
 # setup fzf
 /usr/local/opt/fzf/install
 
+brew install editorconfig
 
 # Remove outdated versions from the cellar.
 brew cleanup

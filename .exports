@@ -4,6 +4,12 @@ export PATH="/usr/local/sbin:$PATH:$HOME/bin:/Users/mofe/Library/Android/sdk/too
 export MANPATH="/usr/local/man:$MANPATH"
 export ANDROID_HOME='/usr/local/opt/android-sdk'
 
+# golang
+export GOPATH=$HOME/golang
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+
 # Make vim the default editor.
 export EDITOR='vim';
 

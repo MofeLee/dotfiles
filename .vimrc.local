@@ -1,4 +1,5 @@
 let g:jsx_ext_required = 0
 
+set nospell
 " setup fzf
 set rtp+=/usr/local/opt/fzf

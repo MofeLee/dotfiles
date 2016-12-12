@@ -20,5 +20,3 @@ export NVM_DIR="/Users/mofe/.nvm"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-export PATH="$HOME/.yarn/bin:$PATH"

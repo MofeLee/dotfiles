@@ -20,3 +20,6 @@ export NVM_DIR="/Users/mofe/.nvm"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/mofe/.sdkman"
+[[ -s "/Users/mofe/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/mofe/.sdkman/bin/sdkman-init.sh"

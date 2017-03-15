@@ -3,7 +3,10 @@ let g:jsx_ext_required = 0
 set nospell
 " setup fzf
 set rtp+=/usr/local/opt/fzf
+let g:indent_guides_enable_on_vim_startup = 0
 
+" for golang
 let g:UltiSnipsExpandTrigger="<c-l>"
 let g:go_fmt_command = "goimports"
 let g:go_fmt_fail_silently = 1
+autocmd BufNewFile,BufRead *.go set noexpandtab tabstop=4 shiftwidth=4 nolist

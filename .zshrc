@@ -14,6 +14,9 @@ source ~/.exports
 source ~/.aliases
 source ~/.functions
 
+# see https://superuser.com/questions/352788/how-to-prevent-a-command-in-the-zshell-from-being-saved-into-history
+setopt HIST_IGNORE_SPACE
+
 # nvm
 export NVM_DIR="/Users/mofe/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
